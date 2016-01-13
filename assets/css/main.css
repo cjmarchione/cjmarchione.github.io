@@ -1,0 +1,624 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: SPOT - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Muli:400italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: rgba(248, 248, 248, 0.41);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    
+    font-style: italic;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+   
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+.navbar-inverse {
+	background: #ffffff;
+	
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	
+   
+
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+	color: #ff7878;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+/*TILT*/
+.tilt {
+    background-color: #F2F2F2;
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.20);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.tilt2 p{
+    margin-top: 3%;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-4deg);
+     -moz-transform: rotate(-4deg);
+       -o-transform: rotate(-4deg);
+      -ms-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+}
+
+.tilt2 {
+    
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt2:hover {
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/Ollies_main.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* Dark Grey Wrap */
+#dg {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+#dg h4 {
+	font-weight: 700;
+}
+
+/* Light Grey */
+#lg {
+	background: rgba(248, 248, 248, 0.41);
+	padding-top: 70px;
+	
+	text-align: center;
+        
+}
+
+#lg h4 {
+	font-weight: 700;
+}
+
+
+/* Red Wrap */
+#r {
+	background: #64070F;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: 1px solid;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+#r h4 {
+	color: white;
+	font-weight: 700;
+}
+
+#r p {
+	color: white;
+}
+
+/* Blue Wrap */
+
+#blue {
+	background:#5A9CFF;
+	padding-top: 55px;
+	padding-bottom: 55px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+#blue h3{
+    color:white;
+
+}
+
+#blue p {
+	color: white;
+}
+
+
+
+/* Footer Wrap */
+#f {
+	background: #4F4F4F;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #ff7878;
+}
+
+/****** SECTIONS *****/
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-weight: 700;
+    
+}
+
+.w i {
+	color: #ff7878;
+	font-size: 30px;
+}
+
+
+.wb {
+	
+	margin-bottom: 0px;
+}
+
+.wb h4 {
+	font-weight: 700;
+}
+
+.desc {
+	padding-top: 35px;
+}
+
+.desc h4 {
+	font-weight: 700;
+}
+
+.desc i {
+	color: #ff7878;
+	font-size: 12px;
+	padding: 5px;
+}
+
+
+
+/* ==========================================================================
+   Pricing Tables
+   ========================================================================== */
+   
+.pricing-option {
+    padding-bottom: 40px;
+}
+
+.pricing-option .pricing-top {
+    position: relative;
+    background: #222;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+    padding: 40px 20px 30px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pricing-option .pricing-top .special-label {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1abc9c;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.special .pricing-top {
+    background: black;
+}
+
+.pricing-option .pricing-edition {
+    text-transform: uppercase;
+    display: block;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+.pricing-option .price {
+    display: inline-block;
+    position: relative;
+}
+
+.pricing-option .price sup {
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    font-size: 24px;
+}
+
+.pricing-option .price .price-amount {
+    font-size: 108px;
+    letter-spacing: -4px;
+}
+
+.pricing-option .price small {
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+}
+
+.pricing-option ul {
+    list-style: none;
+    margin: 0;
+    background: #eee;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.pricing-option ul li {
+    border-bottom: solid 1px #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing-option .pricing-signup {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    color: white;
+    background: #1abc9c;
+}
+
+.pricing-option .pricing-signup:hover {
+    background: #ff7878;
+}
+
+
+.services{
+     background-color: #64070F;
+    color: white;
+    padding: 15px;
+        border-radius: 3px;
+}
+
+}
+
+.offer{
+    
+    font-size: 24px;
+    margin-bottom: 5%;
+    background: #64070F;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: white;
+}
+@media (max-width: 1200px){
+.affiliates{
+    padding:3%;
+
+    }
+    .carousel .item{
+        max-height: 450px
+    }
+}
+.affiliates h4{
+    color: #4F4F4F;
+    padding: 15px;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size:22px;
+}
+
+.contant_box_1 {
+    position: relative;
+    display: block;
+}
+.contant_box_1 img {
+    width: 100%;
+    height: auto;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+.cont_bottom {
+    left: 0;
+    
+    bottom: 0;
+    width: 100%;
+    background: #64070F ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cont_bottom span {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+@media (max-width: 767px) {
+    #dg{
+        padding-top: 5%;
+    }
+
+    .offer{
+        margin-bottom: 0%;
+    }
+  }
+
+
+    .overlay:hover{
+        background: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+
+    }
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+@media (min-width: 1200px){
+
+
+.carousel .item {
+  min-height: 800px;
+}
+}
+
+.carousel .item {
+  min-height: 800px;
+  background-color:#555;
+ 
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 800px;
+}
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+}
+
+.services-header{
+    background: #64070F ;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+.services-header1{
+    background: #5A9CFF;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+.affiliate{
+    background: #5A9CFF;
+    color: white;
+
+}
+.nav li:hover{
+    border-bottom: 1px solid;
+    border-bottom-color: #64070F ;
+}
+.nav li:active{
+    border-bottom: 1px solid;
+    border-bottom-color: #5A9CFF;
+}
+
+
+
+/* EMPLOYEE BIOS */
+
+
+
+.bios{
+    border-radius: 50%;
+    max-width: 100%;
+
+}
+@media (min-width: 1200px){
+    .small{
+        display:none;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .small2{
+        display:none;
+    }
+    .bios h3{
+        text-align: center;
+    }
+}
+/* END BIOS */
+
+.desc img{
+        border: 4px solid;
+    border-color: #5A9CFF;
+}
+
+.desc img[src="assets/img/p01.png"]{
+    border: 4px solid;
+    border-color: #64070F ;
+}
+#g {
+    background-color: #4F4F4F;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+#g h2{
+    color: white;
+    padding: 10px;
+}
