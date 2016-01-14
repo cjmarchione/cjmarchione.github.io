@@ -4800,7 +4800,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: #333333;
+  border-color: rgba(79, 79, 79, 0.35);
 }
 
 .navbar-inverse .navbar-toggle:hover,
@@ -4809,7 +4809,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+      background-color: #64070F;
 }
 
 .navbar-inverse .navbar-collapse,
