@@ -4460,7 +4460,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar > .container .navbar-brand {
     margin-left: -15px;
   }
@@ -4503,7 +4503,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4584,7 +4584,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -4724,7 +4724,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-bottom-color: #777777;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
