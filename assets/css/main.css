@@ -622,3 +622,11 @@ a:after {
     color: white;
     padding: 10px;
 }
+
+
+html,
+body {
+    height: 100%;
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
