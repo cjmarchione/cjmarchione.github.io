@@ -108,7 +108,7 @@ a:after {
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
-    
+
 }
 
 .navbar-inverse .navbar-brand i {
@@ -608,6 +608,7 @@ a:after {
 .desc img{
         border: 4px solid;
     border-color: #5A9CFF;
+        max-width: 100%;
 }
 
 .desc img[src="assets/img/p01.png"]{
