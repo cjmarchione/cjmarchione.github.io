@@ -522,7 +522,9 @@ a:after {
 
 /* Declare heights because of positioning of img element */
 @media (min-width: 1200px){
-
+.carousel{
+    height:75%;
+}
 
 .carousel .item {
   min-height: 800px;
@@ -530,7 +532,6 @@ a:after {
 }
 
 .carousel .item {
-  min-height: 800px;
   background-color:#555;
  
 }
