@@ -525,6 +525,10 @@ a:after {
 .carousel{
     height:75%;
 }
+@media (max-width: 1199px){
+.carousel{
+    height:50%;
+}
 
 .carousel .item {
   min-height: 800px;
