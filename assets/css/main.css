@@ -523,10 +523,7 @@ a:after {
 /* Declare heights because of positioning of img element */
 
 
-.carousel .item {
-  min-height: 800px;
-}
-}
+
 
 .carousel .item {
   background-color:#555;
