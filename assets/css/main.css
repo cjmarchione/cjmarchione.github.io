@@ -629,4 +629,5 @@ a:after {
 
 .w li{
     list-style-type: none;
+    margin: 4px;
 }
