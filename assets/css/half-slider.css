@@ -33,3 +33,13 @@ body {
     -o-background-size: cover;
 }
 
+@media (min-width: 1200px){
+.carousel{
+    height:75%;
+}
+}
+@media (max-width: 1199px){
+.carousel{
+    height:50%;
+}
+}
