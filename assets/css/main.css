@@ -620,10 +620,11 @@ a:after {
     padding: 10px;
 }
 
-.w{
+.w li{
     text-decoration: none;
 }
 .w h4{
     background-color: #5A9CFF;
     padding: 20px; 
+    color:white;
 }
