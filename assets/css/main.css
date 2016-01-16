@@ -642,4 +642,5 @@ a:after {
 .biop p{
     width: 60%;
     text-align: center;
+    margin:auto;
 }
