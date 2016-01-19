@@ -280,7 +280,7 @@ a:after {
 #f i {
 	color: #bdbdbd;
 	font-size: 30px;
-	padding: 20px;
+	
 }
 
 #f i:hover {
@@ -581,6 +581,7 @@ a:after {
 .bios{
     border-radius: 50%;
     max-width: 100%;
+        
 
 }
 @media (min-width: 1200px){
@@ -640,7 +641,33 @@ a:after {
     margin: 0px;
 }
 .biop p{
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin:auto;
+}
+
+
+#lg1 {
+    background: #ffffff;
+    padding: 0px;
+    
+    text-align: center;
+        
+}
+
+#lg1 h4 {
+    font-weight: 700;
+}
+#blue1 {
+    background: #ffffff;
+        padding-top: 6%;
+   
+    
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.foot {
+    background-color: #4F4F4F;
 }
