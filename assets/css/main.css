@@ -676,6 +676,7 @@ a:after {
 
 .bordered img {
     border: 3px solid #5A9CFF;
+        max-width: 100%;
 }
 
 .carousel1{
