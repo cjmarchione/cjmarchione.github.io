@@ -455,11 +455,12 @@ a:after {
     }
 }
 .affiliates h4{
-    color: #4F4F4F;
+    
     padding: 15px;
     border-radius: 3px;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size:22px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    
 }
 
 .contant_box_1 {
@@ -549,10 +550,14 @@ a:after {
 
 .services-header{
     background: #64070F ;
-    color: white;
+    
     text-align: center;
     padding: 18px;
+
 }
+
+
+
 .services-header1{
     background: #5A9CFF;
     color: white;
