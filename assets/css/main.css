@@ -458,7 +458,8 @@ a:after {
     
     padding: 15px;
     border-radius: 3px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
     color: white;
     
 }
@@ -661,9 +662,7 @@ a:after {
         
 }
 
-#lg1 h4 {
-    font-weight: 700;
-}
+
 #blue1 {
     background: #ffffff;
         padding-top: 6%;
