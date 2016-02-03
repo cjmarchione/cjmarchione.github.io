@@ -140,7 +140,7 @@ a:after {
       -ms-transform: rotate(-4deg);
           transform: rotate(-4deg);
 }
-
+@media (min-width: 600px){
 .tilt2 {
     
   -webkit-transition: all 0.5s ease;
@@ -157,8 +157,7 @@ a:after {
       -ms-transform: rotate(-15deg);
           transform: rotate(-15deg);
 }
-
-
+}
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
